@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 8e6906d5-2a93-47b0-a2a5-f5ac20bfc742
+  title: Numerical analysis
+  # description:
+  # keywords: []
+  authors: 
+    - Marc Massot
+  toc:
+    - file: contents/home.md
+    - title: Polynomial interpolation
+      children:
+        - file: contents/polynomial_interpotation/runge.ipynb
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+     hide_toc: false 	
+  #   favicon: favicon.ico
+     logo: logo_hpc@maths.png

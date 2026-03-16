@@ -1,0 +1,9 @@
+name: jbhpc@maths
+channels:
+  - conda-forge
+dependencies:
+  - jupyter-book
+  - numpy
+  - scipy
+  - mpmath
+  - plotly	
